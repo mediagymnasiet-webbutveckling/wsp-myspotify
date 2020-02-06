@@ -80,6 +80,8 @@ För att komma igång med authentiseringen.
 * Bra att veta: Jag har inga höga krav på styling. Om du vill ha "snabb" hjälp med styling använd gärna ett ramverk som [Bootstrap](https://getbootstrap.com/). Denna kurs handlar mer om att hantera data än om CSS.
 
 
+Exempel från svar i Del 1:
+![Random Playlist](https://octodex.github.com/images/yaktocat.png)
 
 Lycka till!
 /Sandra
