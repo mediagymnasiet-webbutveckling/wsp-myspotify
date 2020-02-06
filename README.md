@@ -1,10 +1,16 @@
 # Uppgift - Min Spotify
 
 Syftet med denna uppgift är att bekanta sig med Spotify API:et för att hämta data och visa resultatet på en sida. 
-Spotify API:et är öppet, men det kräver autentisering. Authentiseringen bygger på OAuth 2.0 vilket innebär att för att kunna hämta från Spotify API:et behöver vi först få tillång till en s.k accesstoken som är giltig i ca 30 min. Denna skickar vi med i vår HTTP förfrågan som header till fetch(). Om denna inloggning lyckas har vi sedan fri tillgång till all data som kommuniceras via Spotify API:et :-)
 
-Här finns dokumentation om Spotify API:et
+Spotify API:et är öppet, men det kräver autentisering. Authentiseringen bygger på OAuth 2.0 vilket innebär att för att kunna hämta från Spotify API:et behöver vi först få tillång till en s.k accesstoken som är giltig i ca 30 min. Vi måste köra en node server för att autentisering och tillgång till en accesstoken. Denna skickar vi sedan till vår frontend som används i HTTP förfrågan som header till fetch(). Om denna inloggning lyckas har vi sedan fri tillgång till all data som kommuniceras via Spotify API:et :-)
+
+### Här finns dokumentation om Spotify API:et
 https://developer.spotify.com/documentation/web-api/
+
+
+### Inspirationen och cred till dessa killar! De som skrivit backendkoden.
+https://www.youtube.com/watch?v=f5OLDvwP-Ug&t=696s
+
 
 ## Instruktioner
 
@@ -21,11 +27,11 @@ https://developer.spotify.com/documentation/web-api/
 
 3. Börja med att sätta upp backend. 
 
-1. Installera de paket som hör till projektet med npm install
-2. Skapa en .env fil i mappen
-3. I .env lägg in uppgifterna för:
-    SPOTIFY_CLIENT_ID=xxx
-    SPOTIFY_CLIENT_SECRET=yyy
+    ### Installera de paket som hör till projektet med npm install
+    ### Skapa en .env fil i mappen
+    ### I .env lägg in uppgifterna för:
+        SPOTIFY_CLIENT_ID=xxx
+        SPOTIFY_CLIENT_SECRET=yyy
 
 
 4. Starta servern genom att skriva **node server.js** i terminalen (enligt skriptet i package.json)
@@ -43,7 +49,7 @@ https://developer.spotify.com/documentation/web-api/
 7. Om asdressraden localhost:8080/?access_token=BQCQYIyU0mF8Y6dU9OxIQtctq... visas i din webbläsare ska det fungera! 
 
 
-8. Om ca 30 minuter förlorar din accesstoken giltighet. Då måste du alltså starta om servern i backend (npm start) och        logga in igen!
+8. Om ca 30 minuter förlorar din accesstoken giltighet. Då måste du alltså starta om servern i backend (node server.js) och logga in igen!
 
 
 9. Nu kan du börja hämta data från Spotify API:et. Gå till frontendmappen och **index.js**. 
@@ -72,8 +78,6 @@ https://developer.spotify.com/documentation/web-api/
   ramverk som [Bootstrap](https://getbootstrap.com/). Denna kurs handlar mer om att hantera data än om CSS.
 
 
-## Inspirationen och cred till dessa killar! De som skrivit backendkoden
-https://www.youtube.com/watch?v=f5OLDvwP-Ug&t=696s
 
 Lycka till!
 /Sandra
