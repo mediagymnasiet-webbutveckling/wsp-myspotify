@@ -81,7 +81,7 @@ För att komma igång med authentiseringen.
 
 
 Exempel från svar i Del 1:
-![Random Playlist](https://octodex.github.com/images/yaktocat.png)
+![Random Playlist](https://github.com/mediagymnasiet-webbutveckling/wsp-myspotify/blob/master/screen.png)
 
 Lycka till!
 /Sandra
