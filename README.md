@@ -33,9 +33,11 @@ För att komma igång med authentiseringen.
     - Installera de paket som hör till projektet med **npm install**
     - Skapa en .env fil i mappen
     - I .env lägg in uppgifterna för:
-        
+
+        ```
         SPOTIFY_CLIENT_ID=xxx 
-        SPOTIFY_CLIENT_SECRET=yyy 
+        SPOTIFY_CLIENT_SECRET=yyy
+        ``` 
 
     **Obs!** *Var försiktigt med dina spotifyuppgifter! Ladda inte upp dessa på webdev eller annat publikt ställe. Låt dem vara på en fil på din dator. Du kan alltid få tag i dem igen genom att logga in på din Dashboard på https://developer.spotify.com/documentation/web-api/*
 
