@@ -29,9 +29,9 @@ För att komma igång med authentiseringen.
 
 3. Börja med att sätta upp backend. 
 
-    ### Installera de paket som hör till projektet med **npm install**
-    ### Skapa en .env fil i mappen
-    ### I .env lägg in uppgifterna för:
+    - Installera de paket som hör till projektet med **npm install**
+    - Skapa en .env fil i mappen
+    - I .env lägg in uppgifterna för:
         SPOTIFY_CLIENT_ID=xxx
         SPOTIFY_CLIENT_SECRET=yyy
 
