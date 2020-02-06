@@ -1,0 +1,61 @@
+
+  
+  body {
+    background: #1DB954;
+    background-image: linear-gradient(to left bottom, #1db954, #00b264, #00ab71, #00a37a, #009b80, #009383, #008b85, #008384, #007a82, #00717e, #00687a, #005f74);
+    min-height: 100vh;
+    color: #fff;
+  }
+
+  .musicpage {
+    border-radius: 20px !important;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22) !important;;
+}
+  }
+
+
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #fff;
+    font-style: italic;
+  }
+
+  .form-control {
+    box-shadow: none;
+    border-color:#fff;
+    background-color: #343a40;
+    color: rgba(255, 255, 255, 0.884) !important;
+  
+  }
+
+   .form-control:active, .form-control:focus {
+    background-color: #343a40 !important; 
+    color: rgba(255, 255, 255, 0.884) !important;
+  }
+
+.form-control:focus, .form-control:active{
+    box-shadow: none;
+    border-color: #fff;
+    background-color: #ccc;
+  }
+  
+  .form-control-underlined {
+    border-width: 0;
+    border-bottom-width: 2px;
+    border-bottom-color: #fff;
+    border-radius: 0;
+    padding-left: 0;
+  }
+  
+
+  input[type="submit"]:focus {
+    background: rgba(0,0,0,.25);
+  }
+
+  a:link {
+    color: #fff;
+  }
+  
+  a:link:hover {
+    color: #ccc;
+  }
