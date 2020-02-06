@@ -2,7 +2,7 @@
 
 Syftet med denna uppgift är att bekanta sig med Spotify API:et för att hämta data och visa resultatet på en sida. 
 
-Spotify API:et är öppet, men det kräver autentisering. Authentiseringen bygger på OAuth 2.0 vilket innebär att för att kunna hämta från Spotify API:et behöver vi först få tillång till en s.k accesstoken som är giltig i ca 30 min. För det kör vi en node server för att autentisering och tillgång till en temporär accesstoken. När vi fått en giltig accesstocken skickar vi denna till vår frontend som url-parameter. I vår frontend hämtar vi vår accesstoken från url:en och skickar med denna som header i vår HTTP-föfrågan med fetch() till Spotify API:ets endpoint (https://api.spotify.com/v1/users/username/playlists). Om denna inloggning lyckas har vi sedan fri tillgång till all data som kommuniceras via Spotify API:et :-)
+Spotify API:et är öppet, men det kräver autentisering. Authentiseringen bygger på OAuth 2.0 vilket innebär att för att kunna hämta från Spotify API:et behöver vi först få tillång till en s.k accesstoken som är giltig i ca 30 min. För det kör vi en node server för att autentisering och tillgång till en temporär accesstoken. När vi fått en giltig accesstocken skickar vi denna till vår frontend som url-parameter. I vår frontend hämtar vi vår accesstoken från url:en och skickar med denna som header i vår HTTP-föfrågan med fetch() till Spotify API:ets endpoint https://api.spotify.com/v1/users/username/playlists. Om denna inloggning lyckas har vi sedan fri tillgång till all data som kommuniceras via Spotify API:et :-)
 
 ### Här finns dokumentation om Spotify API:et
 https://developer.spotify.com/documentation/web-api/
@@ -59,9 +59,7 @@ För att komma igång med authentiseringen.
 9. Nu kan du börja hämta data från Spotify API:et. Gå till frontendmappen och **index.js**. 
 
 
-10. Börja med att se att du får ett resultat genom att hämta data från url 
-    https://api.spotify.com/v1/users/${query}/playlists med **fetch**. 
-    Följ stegen i **index.js** och börja med att skriva ut data med console.log för att bekräfta att du kan ta hem en spellistorna för en användare.
+10. Börja med att se att du får ett resultat genom att hämta data från Spotify API:ets endpoint        med **fetch**. Följ stegen i **index.js** och börja med att skriva ut data med console.log för     att bekräfta att du kan ta hem en spellistorna för en användare.
 
 11. Om du får hem data, fortsätt vidare med nstruktionerna i **index.js**. Ditt färdiga resultat ska vara att slumpad spellista från vald använda visas på sidan. Du visar bilden för albumet, lista med vardera artist - låt, samt länklyssning i Spotify.
 
