@@ -79,7 +79,7 @@ För att komma igång med authentiseringen.
 
 ### Del 2
 
-* Du gör en egen twist på datat från Spotify API:et. Din sökning och visning är helt valfri. Om du vill ha idéer, fråga din lärare.
+* Du gör en egen twist på datat från Spotify API:et. Din sökning och visning är helt valfri, där du tar hjälp av            https://developer.spotify.com/documentation/web-api/reference/.  Om du inte kommer på något, vill ha idéer, fråga din lärare!
 * Du använder förutom map, även filter, reduce eller sort för att hantera data.
 * Bra att veta: Jag har inga höga krav på styling. Om du vill ha "snabb" hjälp med styling använd gärna ett ramverk som [Bootstrap](https://getbootstrap.com/). Denna kurs handlar mer om att hantera data än om CSS.
 
