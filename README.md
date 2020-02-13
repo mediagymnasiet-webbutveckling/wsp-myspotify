@@ -75,7 +75,7 @@ För att komma igång med authentiseringen.
 
 ### Del 1
 
-* Du kan visa en fungerande slumpad spellista från valfri användare med information om bild, artist - låt samt en länk till lyssning på Spotify.
+* Du kan visa en fungerande slumpad spellista från valfri användare med information om bild, artist - låt samt en länk till lyssning på Spotify. Du gör detta genom de 15 stycken instrukitonssteg som finns i filen frontend -> index.js.
 
 ### Del 2
 
