@@ -97,6 +97,10 @@ function displayMusic(data) {
 
 }
 
+// 15. Lägg in ett try- respektiv catch-block i async-functionen fetchMusic(). Med detta kan 
+//     exempelivs en mysslyckad förfrågan över HTTP ge fel om detta. D.v.s "reject" av den 
+//     promise som skapas med async-funktionen.
+
 
 // Lyssna på submit på sökrutan (formuläret)
 form.addEventListener('submit', handleSubmit);
